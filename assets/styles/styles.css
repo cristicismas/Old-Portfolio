@@ -318,3 +318,15 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 500;
 	color: #7d7d7d;
 }
+
+/* Media Queries */
+
+@media (max-width: 700px) {
+	#about h2 {
+		font-size: 40px;
+	}
+	
+	#about span {
+		font-size: 25px;
+	}
+}
